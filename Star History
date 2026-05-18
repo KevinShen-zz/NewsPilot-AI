@@ -1,0 +1,57 @@
+Star History
+If you find this project useful, please give it a star.
+
+
+---
+
+# .gitignore
+
+```gitignore id="p9wmlj"
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Markdown output
+*.md
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+
+# Secrets
+config.py
+.env
+
+# Temporary files
+tmp/
+temp/
+
+# WeChat drafts
+drafts/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+dist/
+build/
